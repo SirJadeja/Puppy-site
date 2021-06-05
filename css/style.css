@@ -1,0 +1,273 @@
+body{
+font-family: 'Inter', sans-serif;
+}
+
+
+/* .navigation-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+} */
+.navigation-bar {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+.logo img{
+  width: 180px;
+  height: auto;
+}
+.navigation-bar li {
+    display: inline;
+    position: relative;
+    left: 50vw;
+}
+.navigation-bar ul li a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+.hero-section{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50PX 0;
+}
+.hero-section .col1{
+  width: 50%;
+  margin-top: 100px;
+}
+.hero-section .col2{
+  width:50%;
+  text-align: center;
+}
+.store-logos{
+  display: flex;
+}
+.store-logos img{
+  height: 50px;
+  width: auto;
+  padding-right: 10px;
+}
+.hero-section .col2 img{
+  width:500px;
+  height: auto;
+}
+
+.row2{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50PX 0;
+  display: flex;
+}
+.row2 .col{
+  text-align: center;
+  width: 25%;
+  padding: 32px 16px;
+}
+.row2 .col:hover{
+border-radius: 18px;
+background: rgb(255 113 84 / 5%);
+}
+.row2 .col img{
+  width: 125px;
+}
+.row2 .col  .heading{
+  font-size: 24px;
+  line-height: 1.3em;
+  margin-top: 0;
+  font-weight: 600;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.row2 .col .desc{
+  color: #747476;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+.row3{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50PX 0;
+  display: flex;
+}
+.row3 .col{
+  width: 50%
+}
+.row3 .subheading{
+  color: #ff7154;
+  font-size: 22px;
+  font-weight: 600;
+}
+.row3 .heading{
+  font-size: 36px;
+  line-height: 1.2em;
+  color: #000;
+  margin-top: 12px;
+  font-weight: 600;
+}
+.row3 .desc{
+  font-size: 18px;
+  line-height: 1.3em;
+  color: #747476;
+}
+.row7{
+  background: rgb(246, 246, 246);
+  padding: 100px 0;
+}
+.row7 .inner-row{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row7 .text-block{
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.row7 .text-block .heading{
+  font-size: 36px;
+  line-height: 1.4em;
+  font-weight: 600;
+}
+.row7 .text-block .desc{
+  font-size: 18px;
+  line-height: 1.3em;
+  color: #747476;
+}
+.row7 .inner-row2{
+  max-width: 790px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+}
+.row7 .inner-row2 .col{
+  width: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.row7 img {
+    border-radius: 12px;
+    border: 2px solid #e7e7e7;
+}
+.row7 .inner-row2 .heading{
+  font-size: 22px;
+  font-weight: 600;
+}
+.row7 .inner-row2 .desc{
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #747476;
+}
+.row8{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100PX 0;
+  background: #fff;
+}
+.row8 .inner-row1{
+  text-align: center;
+}
+.row8 .inner-row1 .subheading{
+font-size: 24px;
+font-weight: 400;
+line-height: 1.3em;
+color: #747474;
+margin-bottom: 0;
+}
+.row8 .inner-row1 .heading{
+font-size: 42px;
+font-weight: 600;
+line-height: 1.3em;
+margin: 0 auto;
+}
+.row8 .inner-row2{
+  margin-top: 50px;
+  display: flex;
+}
+.row8 .inner-row2 .col{
+  width: 30%;
+  padding: 40px 32px;
+  border: 2px solid rgb(231, 231, 231);
+  border-radius: 16px;
+  margin: 0 20px;
+  text-align: center;
+}
+.row8 .inner-row2 .col img{
+  border-radius: 50%;
+}
+.row8 .inner-row2 .col .heading{
+  font-size: 22px;
+  line-height: 1.3em;
+  font-weight: 600;
+}
+.row8 .inner-row2 .col .desc{
+  font-size: 18px;
+  line-height: 1.5em;
+  color: rgb(116, 116, 118);
+}
+.row9{
+  padding: 100PX 0;
+  background: #F6F6F6;
+}
+.row9 .inner-row1{
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row9 .inner-row1 .heading{
+font-size: 42px;
+font-weight: 600;
+line-height: 1.3em;
+}
+.row9 .inner-row1 .desc{
+font-size: 18px;
+color: #747474;
+line-height: 1.5em;
+}
+.row9 .store-logos {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 50px 0;
+}
+.footer .col{
+  width: 25%;
+}
+.footer .logo-text{
+  font-size: 14px;
+color: #747474;
+line-height: 1.5em;
+}
+.footer .footer-logo{
+  height: 50px;
+  width: auto;
+}
+.footer .group2{
+  display: flex;
+width: 80%;
+/* margin-left: 120px; */
+justify-content: flex-end;
+}
+.footer h3{
+  font-weight: 600;
+  color: #747474;
+
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2em;
+}
